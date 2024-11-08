@@ -55,12 +55,12 @@ if result[0] in risk_on_currencies:
     if result[1] in risk_on_currencies:
         res+= '\n'+'The market is in risk on conditions'
     else:
-        res+= '\n'+'The sentiment of the market is Mix to risk on'
+        res+= '\n'+'The sentiment of the market is Mix to risk on, check nasdaq chart'
 elif result[0] in risk_off_currencies:
     if result[1] in risk_off_currencies:
         res+= '\n'+'The market is in risk off conditions'
     else:
-        res+= '\n'+'The sentiment of market is Mix to risk off'
+        res+= '\n'+'The sentiment of market is Mix to risk off, check usdx chart'
 else:
     res+= '\n'+'The sentiment of the market is completely mixed'
 
